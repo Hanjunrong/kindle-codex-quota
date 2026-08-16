@@ -1,0 +1,23 @@
+# Python / runtime
+__pycache__/
+*.pyc
+http.log
+launchd.*.log
+
+# node deps (app subproject)
+app/node_modules/
+
+# secrets
+.env
+
+# generated data (regenerable at request time)
+app/state/
+gh-pages/data.js
+gh-pages/data.txt
+gh-pages/data.json
+weather.json
+quote.json
+
+# device artifacts (optional)
+*.deb
+kpf-package/
