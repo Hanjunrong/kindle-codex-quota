@@ -29,6 +29,15 @@ Kindle WAF app (file:/// 一个精简单页)  -- 通过 192.168.0.100-110 依次
 - 入口包：`/mnt/us/kmc/kpm/packages/q/launch.sh`（store 缓存覆盖方案）
 - 图书馆入口：`/mnt/us/documents/AIQuota.sh`（`#DontUseFBInk` 头 → `kpm launch q --asap`）
 
+## 长时间显示（禁锁屏 / 禁休眠）
+WAF 页面显示期间框架的屏保/休眠计时会把屏幕锁掉。启动时用 `powerd` 两个开关禁用（已写进 `q/launch.sh` 开头）：
+```sh
+lipc-set-prop com.lab126.powerd preventScreenSaver 1 2>/dev/null || true
+lipc-set-prop com.lab126.powerd preventSleep 1 2>/dev/null || true
+```
+退出长时间显示后要恢复，运行 `device/q-package/unlock.sh`（等价：上面两个置回 `0`）。
+注意：这些命令只能在设备端 shell 跑；文件系统挂载无法直接执行，所以放进每次 Library 触发的脚本里。
+
 ## Launch 机制（关键 trick）
 `launch.sh` 逐行（set -e）：
 ```sh
