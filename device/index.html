@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI 额度中控台</title>
+<style>
+html, body {
+  margin: 0; padding: 24px 28px;
+  background: #FFFFFF; color: #000000;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'SimHei', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.time { font-size: 120px; font-weight: bold; line-height: 1.0; }
+.date { font-size: 40px; color: #555555; margin-top: 4px; }
+.card {
+  background: #FFFFFF; border: 1px solid #999999;
+  padding: 16px 20px; margin-top: 18px; width: auto;
+  box-sizing: border-box;
+}
+.card-title { font-size: 52px; font-weight: bold; margin-bottom: 6px; }
+.card-title svg { width: 52px; height: 52px; vertical-align: middle; margin-right: 12px; }
+.w-row { overflow: hidden; }
+.w-temp { font-size: 90px; font-weight: bold; line-height: 1.0; float: left; }
+.w-icon { font-size: 90px; float: left; margin-left: 16px; line-height: 1.0; }
+.w-detail { font-size: 36px; color: #444444; margin-top: 6px; line-height: 1.6; clear: both; }
+.quote-text { font-size: 38px; line-height: 1.6; }
+.quote-src { font-size: 26px; color: #666666; margin-top: 6px; }
+.q-label { font-size: 38px; color: #555555; margin-top: 8px; overflow: hidden; }
+.q-label .l { float: left; }
+.q-label .pct { float: right; color: #000000; font-weight: bold; }
+.q-bar { height: 16px; background: #DDDDDD; margin-top: 6px; clear: both; }
+.q-bar-fill { height: 100%; background: #000000; }
+.q-refresh { font-size: 22px; color: #666666; margin-top: 6px; }
+#dataStatus { font-size: 28px; color: #666666; margin-top: 18px; }
+#dataAlert { display: none; margin-top: 12px; padding: 8px 12px; border: 2px solid #000000; font-size: 28px; color: #000000; }
+#dataAlert.on { display: block; }
+</style>
+</head>
+<body>
+
+<div class="time" id="dtTime">--:--</div>
+<div class="date" id="dtDate">----年--月--日</div>
+
+<div class="card">
+  <div class="w-row">
+    <span class="w-temp" id="weatherTemp">--°</span>
+    <span class="w-icon" id="weatherIcon"></span>
+  </div>
+  <div class="w-detail" id="weatherDetail">体感 --° · 湿度 --%</div>
+</div>
+
+<div class="card" id="cardCodex">
+  <div class="card-title">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M11.745 14.85L6.905 12V7c0-2.21 1.824-4 4.076-4c1.397 0 2.63.69 3.365 1.741"/><path d="M9.6 19.18A4.1 4.1 0 0 0 13.02 21c2.25 0 4.076-1.79 4.076-4v-5L12.16 9.097"/><path d="M9.452 13.5V7.67l4.412-2.5c1.95-1.105 4.443-.45 5.569 1.463a3.93 3.93 0 0 1 .076 3.866"/><path d="M4.49 13.5a3.93 3.93 0 0 0 .075 3.866c1.126 1.913 3.62 2.568 5.57 1.464l4.412-2.5l.096-5.596"/><path d="M17.096 17.63a4.09 4.09 0 0 0 3.357-1.996c1.126-1.913.458-4.36-1.492-5.464l-4.413-2.5l-5.059 2.755"/><path d="M6.905 6.37a4.09 4.09 0 0 0-3.358 1.996c-1.126 1.914-.458 4.36 1.492 5.464l4.413 2.5l5.048-2.75"/></g></svg>
+    Codex 已用额度
+  </div>
+  <div class="q-row">
+    <div class="q-label"><span class="l">已用</span><span class="pct">--%</span></div>
+    <div class="q-bar"><div class="q-bar-fill" style="width:0%"></div></div>
+    <div class="q-refresh">↻ --</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="quote-text" id="quoteText">重要的东西，用眼睛是看不见的。</div>
+  <div class="quote-src" id="quoteSrc">— 圣·埃克苏佩里 ·《小王子》</div>
+</div>
+
+<div id="dataStatus">等待数据</div>
+<div id="dataAlert"></div>
+
+<script src="data.js"></script>
+<script src="live-endpoint.js"></script>
+<script src="dashboard-runtime.js?v=20260816"></script>
+</body>
+</html>
