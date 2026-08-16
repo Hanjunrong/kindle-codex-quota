@@ -63,6 +63,17 @@ exit 0
 - 天气中文：wttr 英文描述做**忽略大小写/空白**的查表（见踩坑）。
 - 每日一句：`quotes.json` 池 + 按"天数 mod 池长"每天换一条，同日稳定。
 
+## Codex 额度如何获取（实测 2026-08-16，codex-cli 0.143.0）
+- 采集器 `app/src/collectors/codex.cjs`：`spawn` 子进程 `codex app-server --listen stdio://`，走 JSON-RPC
+  `initialize`(id1) → `account/rateLimits/read`(id2)，超时 20s。
+- 从返回 `rateLimitsByLimitId.codex`（或首个 cap）取 `primary`/`secondary` 两窗口：
+  `usedPercent`→`usedPct`；`resetsAt`(秒)→`resetAt`；按 `windowDurationMins` 映射名字
+  （`300`→5小时、`10080`→周、`1440*N`→N天、`60*N`→N小时，`durationName()`）。
+- **当前账号是 Plus 计划，只返回 `primary`(10080 分钟=周) 且 `secondary=null`**，不返回 5 小时档。
+  周额度满 100% 时报 `rateLimitReachedType="rate_limit_reached"`、`credits.balance=0`。
+- 因此中控台只显示"Codex 周额度 100%"一行、没有 5 小时行——**这是准确的，不是解析丢行**
+  （`primary` 虽默认映射 '5小时'，但 `durationName` 按 10080 判回"周"）。
+
 ## 永久坑清单（别再踩）
 - **PW3 浏览器是旧 mesquite/WebKit，渲染不了 `grid`/`flex`/`@media`**。用 `display:grid` 的"好看"页面到 Kindle 上直接空白/碎裂。必须用最朴素的 `block` + `float` + 固定 px 布局。
 - **fbink 全屏纯文字面板 = 走不通的死路**（曾尝试用 `libkh/bin/fbink` 直接写 framebuffer、`wfb` 停 framework）。停 framework 极易白屏只能长按电源 40 秒硬重启。见 `macos/kindle-winterbreak-display` 残留，勿再复活。删掉的"商店/WAF/file://"被当过废弃，实为**正确**——是 fbink 路线被废弃。
