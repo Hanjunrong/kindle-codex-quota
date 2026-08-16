@@ -35,7 +35,6 @@ WAF 页面显示期间框架的屏保/休眠计时会把屏幕锁掉。启动时
 lipc-set-prop com.lab126.powerd preventScreenSaver 1 2>/dev/null || true
 lipc-set-prop com.lab126.powerd preventSleep 1 2>/dev/null || true
 ```
-退出长时间显示后要恢复，运行 `device/q-package/unlock.sh`（等价：上面两个置回 `0`）。
 注意：这些命令只能在设备端 shell 跑；文件系统挂载无法直接执行，所以放进每次 Library 触发的脚本里。
 
 ## Launch 机制（关键 trick）
