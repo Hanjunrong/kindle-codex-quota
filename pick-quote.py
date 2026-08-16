@@ -7,7 +7,7 @@ import datetime
 import json
 import os
 
-HOME = "/Users/han/temp/workspace/kindle-quota"
+HOME = os.path.dirname(os.path.abspath(__file__))
 POOL = os.path.join(HOME, "quotes.json")
 OUT = os.path.join(HOME, "quote.json")
 

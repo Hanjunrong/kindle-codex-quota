@@ -6,7 +6,7 @@
 """
 import json, datetime, os
 
-HOME = "/Users/han/temp/workspace/kindle-quota"
+HOME = os.path.dirname(os.path.abspath(__file__))
 SRC = f"{HOME}/app/state/data.json"
 OUT = f"{HOME}/gh-pages/data.txt"
 

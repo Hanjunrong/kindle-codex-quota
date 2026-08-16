@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """采集 wttr.in 北京朝阳天气，生成 weather.json（供 collect.cjs 的 readWeather 读取）。"""
-import json, subprocess, datetime, sys
+import json, subprocess, datetime, sys, os
 
 LOCATION = "Chaoyang,Beijing"
-OUT = "/Users/han/temp/workspace/kindle-quota/weather.json"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "weather.json")
 
 DESC_MAP = {
     "Sunny": "晴", "Clear": "晴", "Partly cloudy": "多云",
