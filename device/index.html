@@ -77,7 +77,7 @@ html, body {
 <script src="dashboard-runtime.js?v=20260816"></script>
 <script>
   // 自动退出恢复：进入时拉起隐藏 pillow dialog（root shell 在 pillow 上下文），
-  // 其 source_command 启动 watch-unlock.sh 后台 watcher，离开 dashboard 自动恢复锁屏/屏保。
+  // 其 source_command 启动 watch-unlock.sh v2（写日志）——离开 dashboard 自动恢复锁屏/屏保。
   (function () {
     try {
       var kindle = window.kindle || top.kindle;
