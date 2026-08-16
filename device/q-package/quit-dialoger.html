@@ -1,0 +1,22 @@
+<html lang="zh" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        // 由 dashboard 页 kindle.messaging 触发打开的隐藏 pillow 对话框。
+        // 只有 pillow customDialog 上下文里才有 nativeBridge（root shell 通道），
+        // 故在此拉起 watch-unlock.sh 后台 watcher：监听 dashboard 离开后自动恢复锁屏/屏保。
+        nativeBridge.accessHasharrayProperty("com.lab126.transfer", "request_upload", {
+            url: "http://127.0.0.1",
+            source_command: "sh -c '/bin/sh /mnt/us/kmc/kpm/packages/q/watch-unlock.sh >/dev/null 2>&1 &'",
+            unique_id: "kindle-quota-watch",
+            netid: 1,
+            priority: 50,
+            notify_progress_interval: 20,
+            notify_pub: "com.lab126.archive",
+            notify_prop: "transferProgressNotification",
+        });
+    </script>
+</body>
+</html>
