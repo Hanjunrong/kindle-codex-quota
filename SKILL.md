@@ -37,6 +37,14 @@ lipc-set-prop com.lab126.powerd preventSleep 1 2>/dev/null || true
 ```
 注意：这些命令只能在设备端 shell 跑；文件系统挂载无法直接执行，所以放进每次 Library 触发的脚本里。
 
+### 恢复锁屏 / 屏保（重要）
+`preventScreenSaver`/`preventSleep` 一旦置 `1`，**只有设备重启才会复位**。进过 dashboard 后回到书库却发现没锁屏/屏保，就是这两开关还挂着。恢复方式：
+
+- **图书馆入口**：`/mnt/us/documents/AIQuotaRestore.sh`（`#DontUseFBInk`）→ 调 `q/unlock.sh`，恢复两开关 + 清掉被覆盖的 store 缓存 + 拉回书架。
+- **底层脚本**：`/mnt/us/kmc/kpm/packages/q/unlock.sh`（磁盘 `device/q-package/unlock.sh`）。
+- 手动等效：设备端 `lipc-set-prop com.lab126.powerd preventScreenSaver 0; lipc-set-prop com.lab126.powerd preventSleep 0`。
+- 教程位置：`SKILL.md`「长时间显示」处曾误删过 `unlock.sh`（commit `bf3e0a2`），导致退出后无法恢复，现已重建。**别再删**。
+
 ## Launch 机制（关键 trick）
 `launch.sh` 逐行（set -e）：
 ```sh

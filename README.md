@@ -55,6 +55,7 @@ Kindle WAF app (file:/// 精简单页)
    - 可注册为 launchd 开机自启 + KeepAlive（本地操作，不对外）
 2. **Kindle**：越狱（WinterBreak + KPM 0.2.x），安装 `device/` 部署包到设备端
    - 图书馆入口 `documents/AIQuota.sh` 触发；WAF app 依次重试局域网 IP 找到 Mac
+   - 显示期间会**禁用锁屏/屏保**以保证长时间常亮，退出后请点 `documents/AIQuotaRestore.sh` 恢复（详见 `SKILL.md`）
 3. 浏览器/设备打开 `http://<mac-ip>:8000/` 即可看到 `data.js` 数据
 
 设备端部署文件（`/Volumes/Kindle` 挂载视角）见 `SKILL.md`「部署文件」一节。
