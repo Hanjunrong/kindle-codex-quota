@@ -37,6 +37,8 @@ lipc-set-prop com.lab126.powerd preventSleep 1 2>/dev/null || true
 ```
 注意：这些命令只能在设备端 shell 跑；文件系统挂载无法直接执行，所以放进每次 Library 触发的脚本里。
 
+**⚠️ 自动"离开即恢复"已尝试过，判定不可靠，放弃**：曾用 `lipc-get-prop com.lab126.windord fgApp` 判断前台来自动解锁，但该 prop 在真实设备上**恒返回空**（windord 无此属性），导致停留时也被误判离开而锁屏。Kindle 无可靠、公开的前台应用查询接口。**不要再用前台判定做自动恢复**——恢复只能靠手动入口或重启。
+
 ### 恢复锁屏 / 屏保（重要）
 `preventScreenSaver`/`preventSleep` 一旦置 `1`，**只有设备重启才会复位**。进过 dashboard 后回到书库却发现没锁屏/屏保，就是这两开关还挂着。恢复方式：
 
