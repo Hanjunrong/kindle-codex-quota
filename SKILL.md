@@ -65,3 +65,5 @@ exit 0
 - **KPM 平台串没有 `kindlepw3`**，PW3 用 `kindlepw2`。
 - **`kpm launch <id>` 读 packages 表**（PK `repository,id`），手摆包要两表都 INSERT，否则崩。
 - 库图标入口 `#DontUseFBInk` 头要保留在 `documents/*.sh` 首行，否则图书馆不显示为可点。
+- KPM 真实安装/打包（`kpm install file://`、手打 tar.gz、库图标注册）细节见 `references/kpm-install.md`；
+  手动解包+只 INSERT db 行那种"伪注册"是死的，别用。
