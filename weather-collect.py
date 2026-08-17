@@ -1,55 +1,64 @@
 #!/usr/bin/env python3
-"""采集 wttr.in 北京朝阳天气，生成 weather.json（供 collect.cjs 的 readWeather 读取）。"""
-import json, subprocess, datetime, sys, os
+"""采集 open-meteo 北京朝阳天气，生成 weather.json（供 collect.cjs 的 readWeather 读取）。
 
-LOCATION = "Chaoyang,Beijing"
+之前用 wttr.in，其上游偶尔返回过期/错位数据（北京 8 月午后显示 11°C）。
+open-meteo 无需 key、数据可信，故改用之。
+"""
+import json, datetime, sys, os, urllib.request
+
+LAT, LON = 39.9042, 116.4074  # 北京朝阳
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "weather.json")
 
-DESC_MAP = {
-    "Sunny": "晴", "Clear": "晴", "Partly cloudy": "多云",
-    "Cloudy": "阴", "Overcast": "阴", "Mist": "雾", "Fog": "雾",
-    "Haze": "霾", "Patchy rain nearby": "零星小雨",
-    "Light rain": "小雨", "Light drizzle": "毛毛雨",
-    "Moderate rain": "中雨", "Heavy rain": "大雨",
-    "Moderate or heavy rain shower": "阵雨",
-    "Light rain shower": "阵雨",
-    "Light snow": "小雪", "Snow": "雪", "Heavy snow": "大雪",
-    "Thundery outbreaks possible": "可能有雷雨",
-    "Freezing fog": "冻雾", "Blizzard": "暴风雪",
+# WMO weather code -> 中文描述
+WMO_DESC = {
+    0: "晴", 1: "晴", 2: "多云", 3: "阴",
+    45: "雾", 48: "冻雾",
+    51: "毛毛雨", 53: "毛毛雨", 55: "毛毛雨",
+    56: "冻毛毛雨", 57: "冻毛毛雨",
+    61: "小雨", 63: "中雨", 65: "大雨",
+    66: "冻雨", 67: "冻雨",
+    71: "小雪", 73: "中雪", 75: "大雪",
+    77: "雪粒",
+    80: "阵雨", 81: "阵雨", 82: "强阵雨",
+    85: "阵雪", 86: "阵雪",
+    95: "雷雨", 96: "雷雨伴冰雹", 99: "雷雨伴冰雹",
 }
-
-WIND_MAP = {
-    "N": "北风", "NNE": "北东北风", "NE": "东北风", "ENE": "东东北风",
-    "E": "东风", "ESE": "东东南风", "SE": "东南风", "SSE": "南东南风",
-    "S": "南风", "SSW": "南西南风", "SW": "西南风", "WSW": "西西南风",
-    "W": "西风", "WNW": "西西北风", "NW": "西北风", "NNW": "北西北风",
-}
-
-_DESC_LOWER = {k.strip().lower(): v for k, v in DESC_MAP.items()}
-_WIND_LOWER = {k.strip().lower(): v for k, v in WIND_MAP.items()}
 
 
 def fetch():
-    url = f"wttr.in/{LOCATION}?format=j1"
-    r = subprocess.run(["curl", "-s", "-m", "15", url],
-                       capture_output=True, text=True)
-    if r.returncode != 0 or not r.stdout.strip():
-        raise RuntimeError(f"curl 失败: {r.stderr or 'empty'}")
-    data = json.loads(r.stdout)
-    cc = data["current_condition"][0]
+    url = (
+        "https://api.open-meteo.com/v1/forecast"
+        f"?latitude={LAT}&longitude={LON}"
+        "&current=temperature_2m,apparent_temperature,relative_humidity_2m,"
+        "weather_code,wind_speed_10m,wind_direction_10m"
+        "&timezone=Asia%2FShanghai"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "kindle-codex-quota/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        raise RuntimeError(f"open-meteo 请求失败: {e}")
 
-    desc_en = (cc["weatherDesc"][0].get("value") or "").strip()
-    desc = _DESC_LOWER.get(desc_en.lower(), desc_en) or desc_en
-    wind_en = (cc.get("winddir16Point") or "").strip()
-    wind = _WIND_LOWER.get(wind_en.lower(), wind_en) or wind_en
+    cur = data.get("current") or {}
+    code = int(cur.get("weather_code", -1))
+    desc = WMO_DESC.get(code, "未知")
+
+    # 风向（度）-> 16 方位中文
+    deg = float(cur.get("wind_direction_10m", 0))
+    dirs = ["北风", "北东北风", "东北风", "东东北风",
+            "东风", "东东南风", "东南风", "南东南风",
+            "南风", "南西南风", "西南风", "西西南风",
+            "西风", "西西北风", "西北风", "北西北风"]
+    wind = dirs[int(((deg % 360) + 11.25) // 22.5) % 16]
 
     return {
         "description": desc,
         "iconKey": "clear" if desc == "晴" else "cloudy",
-        "tempC": int(cc["temp_C"]),
-        "feelsLikeC": int(cc["FeelsLikeC"]),
-        "humidity": int(cc["humidity"]),
-        "windKph": int(cc["windspeedKmph"]),
+        "tempC": round(cur["temperature_2m"]),
+        "feelsLikeC": round(cur["apparent_temperature"]),
+        "humidity": round(cur["relative_humidity_2m"]),
+        "windKph": round(cur["wind_speed_10m"] * 3.6),
         "windDir": wind,
         "place": "北京朝阳",
         "observedAt": datetime.datetime.now().astimezone().isoformat(),
