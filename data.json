@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-09-18T00:00:00.959+08:00",
+  "updatedAt": "2026-09-18T00:11:02.926+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 24,
     "feelsLikeC": 26,
-    "humidity": 63,
+    "humidity": 65,
     "windKph": 28,
     "windDir": "东南风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-17T23:57:08.100+08:00",
-    "fetchedAt": "2026-09-18T00:00:00.959+08:00",
+    "observedAt": "2026-09-18T00:09:16.846+08:00",
+    "fetchedAt": "2026-09-18T00:11:02.927+08:00",
     "error": null
   },
   "quote": {
-    "text": "咬定青山不放松，立根原在破岩中。",
-    "source": "郑板桥"
+    "text": "博观而约取，厚积而薄发。",
+    "source": "苏轼"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-17T23:59:59.453+08:00",
+      "fetchedAt": "2026-09-18T00:11:00.661+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@
           "resetAt": "2026-09-20T13:03:43.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-17T23:59:59.454+08:00",
+      "fetchedAt": "2026-09-18T00:11:00.662+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-17T23:59:59.458+08:00",
+      "fetchedAt": "2026-09-18T00:11:00.666+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-17T23:59:59.458+08:00",
+      "fetchedAt": "2026-09-18T00:11:00.666+08:00",
       "error": "未启用",
       "disabled": true
     }
