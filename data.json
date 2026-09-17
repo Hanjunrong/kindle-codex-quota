@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-09-17T15:11:03.410+08:00",
+  "updatedAt": "2026-09-17T15:22:05.202+08:00",
   "weather": {
     "ok": true,
     "description": "多云",
     "iconKey": "cloudy",
-    "tempC": 26,
-    "feelsLikeC": 28,
-    "humidity": 58,
-    "windKph": 30,
+    "tempC": 31,
+    "feelsLikeC": 31,
+    "humidity": 33,
+    "windKph": 24,
     "windDir": "南西南风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-16T22:12:11.419+08:00",
-    "fetchedAt": "2026-09-17T15:11:03.410+08:00",
+    "observedAt": "2026-09-17T15:21:06.756+08:00",
+    "fetchedAt": "2026-09-17T15:22:05.203+08:00",
     "error": null
   },
   "quote": {
-    "text": "纸上得来终觉浅，绝知此事要躬行。",
-    "source": "陆游"
+    "text": "咬定青山不放松，立根原在破岩中。",
+    "source": "郑板桥"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-17T15:11:01.990+08:00",
+      "fetchedAt": "2026-09-17T15:22:03.381+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-09-17T20:11:03.000+08:00"
+          "resetAt": "2026-09-17T20:22:04.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-09-20T13:03:43.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-17T15:11:01.991+08:00",
+      "fetchedAt": "2026-09-17T15:22:03.382+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-17T15:11:01.994+08:00",
+      "fetchedAt": "2026-09-17T15:22:03.385+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-17T15:11:01.994+08:00",
+      "fetchedAt": "2026-09-17T15:22:03.385+08:00",
       "error": "未启用",
       "disabled": true
     }
