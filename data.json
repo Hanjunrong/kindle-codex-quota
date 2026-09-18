@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-18T16:13:54.899+08:00",
+  "updatedAt": "2026-09-18T16:25:14.331+08:00",
   "weather": {
     "ok": true,
-    "description": "晴",
-    "iconKey": "clear",
-    "tempC": 29,
+    "description": "毛毛雨",
+    "iconKey": "cloudy",
+    "tempC": 28,
     "feelsLikeC": 29,
     "humidity": 44,
     "windKph": 32,
     "windDir": "东南风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-18T16:12:17.340+08:00",
-    "fetchedAt": "2026-09-18T16:13:54.899+08:00",
+    "observedAt": "2026-09-18T16:18:17.645+08:00",
+    "fetchedAt": "2026-09-18T16:25:14.332+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-18T16:13:53.227+08:00",
+      "fetchedAt": "2026-09-18T16:24:54.321+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-09-18T21:13:54.000+08:00"
+          "resetAt": "2026-09-18T21:18:19.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,16 @@
           "resetAt": "2026-09-20T13:03:43.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-18T16:13:53.228+08:00",
-      "error": null
+      "fetchedAt": "2026-09-18T16:18:18.109+08:00",
+      "error": "Codex app-server 查询超时",
+      "stale": true,
+      "lastAttemptAt": "2026-09-18T16:24:54.322+08:00"
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-18T16:13:53.232+08:00",
+      "fetchedAt": "2026-09-18T16:24:54.326+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +61,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-18T16:13:53.232+08:00",
+      "fetchedAt": "2026-09-18T16:24:54.326+08:00",
       "error": "未启用",
       "disabled": true
     }
