@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-09-18T23:58:50.431+08:00",
+  "updatedAt": "2026-09-19T00:09:51.524+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 22,
     "feelsLikeC": 23,
-    "humidity": 72,
-    "windKph": 16,
+    "humidity": 73,
+    "windKph": 15,
     "windDir": "南风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-18T23:57:18.215+08:00",
-    "fetchedAt": "2026-09-18T23:58:50.431+08:00",
+    "observedAt": "2026-09-19T00:09:17.427+08:00",
+    "fetchedAt": "2026-09-19T00:09:51.525+08:00",
     "error": null
   },
   "quote": {
-    "text": "博观而约取，厚积而薄发。",
-    "source": "苏轼"
+    "text": "故不积跬步，无以至千里。",
+    "source": "荀子《劝学》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-18T23:58:48.914+08:00",
+      "fetchedAt": "2026-09-19T00:09:50.185+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-09-19T04:58:50.000+08:00"
+          "resetAt": "2026-09-19T05:09:51.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-09-20T13:03:43.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-18T23:58:48.915+08:00",
+      "fetchedAt": "2026-09-19T00:09:50.187+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-18T23:58:48.918+08:00",
+      "fetchedAt": "2026-09-19T00:09:50.191+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-18T23:58:48.918+08:00",
+      "fetchedAt": "2026-09-19T00:09:50.191+08:00",
       "error": "未启用",
       "disabled": true
     }
