@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-09-19T23:49:39.545+08:00",
+  "updatedAt": "2026-09-20T00:00:39.384+08:00",
   "weather": {
     "ok": true,
     "description": "阴",
     "iconKey": "cloudy",
     "tempC": 24,
     "feelsLikeC": 26,
-    "humidity": 73,
-    "windKph": 14,
+    "humidity": 74,
+    "windKph": 12,
     "windDir": "西南风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-19T23:48:17.924+08:00",
-    "fetchedAt": "2026-09-19T23:49:39.545+08:00",
+    "observedAt": "2026-09-20T00:00:19.941+08:00",
+    "fetchedAt": "2026-09-20T00:00:39.384+08:00",
     "error": null
   },
   "quote": {
-    "text": "故不积跬步，无以至千里。",
-    "source": "荀子《劝学》"
+    "text": "胜人者有力，自胜者强。",
+    "source": "《道德经》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-19T23:49:37.969+08:00",
+      "fetchedAt": "2026-09-20T00:00:38.335+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-09-20T04:49:39.000+08:00"
+          "resetAt": "2026-09-20T05:00:39.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-09-20T13:03:43.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-19T23:49:37.970+08:00",
+      "fetchedAt": "2026-09-20T00:00:38.336+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-19T23:49:37.973+08:00",
+      "fetchedAt": "2026-09-20T00:00:38.339+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-19T23:49:37.973+08:00",
+      "fetchedAt": "2026-09-20T00:00:38.339+08:00",
       "error": "未启用",
       "disabled": true
     }
