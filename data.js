@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-09-25T12:18:01.298+08:00",
+  "updatedAt": "2026-09-27T14:36:52.728+08:00",
   "weather": {
     "ok": true,
-    "description": "阴",
-    "iconKey": "cloudy",
+    "description": "晴",
+    "iconKey": "clear",
     "tempC": 22,
     "feelsLikeC": 24,
-    "humidity": 72,
-    "windKph": 3,
-    "windDir": "北东北风",
+    "humidity": 73,
+    "windKph": 18,
+    "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-25T12:15:15.587+08:00",
-    "fetchedAt": "2026-09-25T12:18:01.299+08:00",
+    "observedAt": "2026-09-27T10:54:53.740+08:00",
+    "fetchedAt": "2026-09-27T14:36:52.728+08:00",
     "error": null
   },
   "quote": {
-    "text": "人的潜能，是被压力逼出来的。",
+    "text": "把无人走过的路，踩成后来人的近路。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-09-25T12:18:00.085+08:00",
+      "fetchedAt": "2026-09-27T14:36:51.046+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -33,23 +33,23 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 1,
-          "resetAt": "2026-09-25T15:20:07.000+08:00"
+          "usedPct": 3,
+          "resetAt": "2026-09-27T19:28:42.000+08:00"
         },
         {
           "name": "周",
-          "usedPct": 61,
-          "resetAt": "2026-09-28T09:30:55.000+08:00"
+          "usedPct": 0,
+          "resetAt": "2026-10-04T14:28:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-09-25T12:18:00.086+08:00",
+      "fetchedAt": "2026-09-27T14:36:51.048+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-09-25T12:18:00.090+08:00",
+      "fetchedAt": "2026-09-27T14:36:51.052+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-09-25T12:18:00.090+08:00",
+      "fetchedAt": "2026-09-27T14:36:51.052+08:00",
       "error": "未启用",
       "disabled": true
     }
