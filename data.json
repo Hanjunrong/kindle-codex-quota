@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-10-01T09:49:52.083+08:00",
+  "updatedAt": "2026-10-01T10:00:52.363+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 22,
-    "feelsLikeC": 23,
-    "humidity": 65,
-    "windKph": 11,
-    "windDir": "东风",
+    "tempC": 17,
+    "feelsLikeC": 14,
+    "humidity": 20,
+    "windKph": 5,
+    "windDir": "西西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-09-28T12:27:17.306+08:00",
-    "fetchedAt": "2026-10-01T09:49:52.088+08:00",
+    "observedAt": "2026-10-01T10:00:08.335+08:00",
+    "fetchedAt": "2026-10-01T10:00:52.363+08:00",
     "error": null
   },
   "quote": {
-    "text": "慢即是快：把一件事做深，胜过做十件事。",
+    "text": "世界不会为拖延者等待。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-01T09:49:50.611+08:00",
+      "fetchedAt": "2026-10-01T10:00:51.134+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@
           "resetAt": "2026-10-04T14:28:42.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-01T09:49:50.612+08:00",
+      "fetchedAt": "2026-10-01T10:00:51.135+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-01T09:49:50.615+08:00",
+      "fetchedAt": "2026-10-01T10:00:51.138+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-01T09:49:50.615+08:00",
+      "fetchedAt": "2026-10-01T10:00:51.138+08:00",
       "error": "未启用",
       "disabled": true
     }
