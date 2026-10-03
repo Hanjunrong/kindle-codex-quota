@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-03T23:58:53.054+08:00",
+  "updatedAt": "2026-10-04T00:09:53.226+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 16,
     "feelsLikeC": 11,
-    "humidity": 31,
-    "windKph": 76,
+    "humidity": 32,
+    "windKph": 75,
     "windDir": "北西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-03T23:57:20.049+08:00",
-    "fetchedAt": "2026-10-03T23:58:53.054+08:00",
+    "observedAt": "2026-10-04T00:09:20.189+08:00",
+    "fetchedAt": "2026-10-04T00:09:53.226+08:00",
     "error": null
   },
   "quote": {
-    "text": "困难是化了妆的机会。",
-    "source": "佚名"
+    "text": "重要的东西，用眼睛是看不见的。",
+    "source": "圣·埃克苏佩里《小王子》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-03T23:58:51.672+08:00",
+      "fetchedAt": "2026-10-04T00:09:51.774+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-10-04T04:58:53.000+08:00"
+          "resetAt": "2026-10-04T05:09:53.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-10T09:01:14.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-03T23:58:51.673+08:00",
+      "fetchedAt": "2026-10-04T00:09:51.775+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-03T23:58:51.677+08:00",
+      "fetchedAt": "2026-10-04T00:09:51.779+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-03T23:58:51.677+08:00",
+      "fetchedAt": "2026-10-04T00:09:51.779+08:00",
       "error": "未启用",
       "disabled": true
     }
