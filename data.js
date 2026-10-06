@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-06T23:59:05.185+08:00",
+  "updatedAt": "2026-10-07T00:10:04.002+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 19,
+    "tempC": 18,
     "feelsLikeC": 16,
     "humidity": 31,
-    "windKph": 27,
+    "windKph": 25,
     "windDir": "西南风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-06T23:57:30.747+08:00",
-    "fetchedAt": "2026-10-06T23:59:05.185+08:00",
+    "observedAt": "2026-10-07T00:09:30.737+08:00",
+    "fetchedAt": "2026-10-07T00:10:04.002+08:00",
     "error": null
   },
   "quote": {
-    "text": "锲而不舍，金石可镂。",
-    "source": "荀子《劝学》"
+    "text": "路虽远，行则将至；事虽难，做则必成。",
+    "source": "《荀子》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-06T23:59:02.391+08:00",
+      "fetchedAt": "2026-10-07T00:10:02.654+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-10T09:01:14.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-06T23:59:02.392+08:00",
+      "fetchedAt": "2026-10-07T00:10:02.655+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-06T23:59:02.395+08:00",
+      "fetchedAt": "2026-10-07T00:10:02.659+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-06T23:59:02.395+08:00",
+      "fetchedAt": "2026-10-07T00:10:02.659+08:00",
       "error": "未启用",
       "disabled": true
     }
