@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-07T18:19:17.390+08:00",
+  "updatedAt": "2026-10-08T16:45:49.316+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -11,19 +11,19 @@ window.DASH_DATA = {
     "windDir": "南风",
     "place": "北京朝阳",
     "observedAt": "2026-10-07T18:18:06.595+08:00",
-    "fetchedAt": "2026-10-07T18:19:17.390+08:00",
+    "fetchedAt": "2026-10-08T16:45:49.316+08:00",
     "error": null
   },
   "quote": {
-    "text": "路虽远，行则将至；事虽难，做则必成。",
-    "source": "《荀子》"
+    "text": "不积跬步，无以至千里。",
+    "source": "荀子《劝学》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-07T18:19:15.671+08:00",
+      "fetchedAt": "2026-10-08T16:45:29.309+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,22 +34,24 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-10-07T23:19:17.000+08:00"
+          "resetAt": "2026-10-08T20:13:45.000+08:00"
         },
         {
           "name": "周",
           "usedPct": 0,
-          "resetAt": "2026-10-14T18:19:17.000+08:00"
+          "resetAt": "2026-10-15T15:13:45.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-07T18:19:15.672+08:00",
-      "error": null
+      "fetchedAt": "2026-10-08T16:24:18.020+08:00",
+      "error": "Codex app-server 查询超时",
+      "stale": true,
+      "lastAttemptAt": "2026-10-08T16:45:29.310+08:00"
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-07T18:19:15.676+08:00",
+      "fetchedAt": "2026-10-08T16:45:29.313+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +61,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-07T18:19:15.676+08:00",
+      "fetchedAt": "2026-10-08T16:45:29.314+08:00",
       "error": "未启用",
       "disabled": true
     }
