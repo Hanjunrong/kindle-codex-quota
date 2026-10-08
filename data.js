@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-08T23:57:26.348+08:00",
+  "updatedAt": "2026-10-09T00:08:25.842+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -8,22 +8,22 @@ window.DASH_DATA = {
     "feelsLikeC": 20,
     "humidity": 68,
     "windKph": 2,
-    "windDir": "北风",
+    "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-08T23:57:24.238+08:00",
-    "fetchedAt": "2026-10-08T23:57:26.349+08:00",
+    "observedAt": "2026-10-09T00:06:19.881+08:00",
+    "fetchedAt": "2026-10-09T00:08:25.842+08:00",
     "error": null
   },
   "quote": {
-    "text": "不积跬步，无以至千里。",
-    "source": "荀子《劝学》"
+    "text": "与其临渊羡鱼，不如退而结网。",
+    "source": "《淮南子》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-08T23:57:24.192+08:00",
+      "fetchedAt": "2026-10-09T00:08:24.276+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-10-09T04:57:25.000+08:00"
+          "resetAt": "2026-10-09T05:08:25.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-15T15:13:45.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-08T23:57:24.193+08:00",
+      "fetchedAt": "2026-10-09T00:08:24.277+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-08T23:57:24.197+08:00",
+      "fetchedAt": "2026-10-09T00:08:24.282+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-08T23:57:24.197+08:00",
+      "fetchedAt": "2026-10-09T00:08:24.282+08:00",
       "error": "未启用",
       "disabled": true
     }
