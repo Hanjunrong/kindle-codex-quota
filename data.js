@@ -1,17 +1,17 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-09T17:10:42.842+08:00",
+  "updatedAt": "2026-10-09T17:22:35.790+08:00",
   "weather": {
     "ok": true,
-    "description": "晴",
-    "iconKey": "clear",
-    "tempC": 21,
-    "feelsLikeC": 20,
-    "humidity": 50,
-    "windKph": 5,
-    "windDir": "东东北风",
+    "description": "阴",
+    "iconKey": "cloudy",
+    "tempC": 24,
+    "feelsLikeC": 23,
+    "humidity": 39,
+    "windKph": 37,
+    "windDir": "南风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-09T10:31:52.931+08:00",
-    "fetchedAt": "2026-10-09T17:10:42.843+08:00",
+    "observedAt": "2026-10-09T17:21:18.710+08:00",
+    "fetchedAt": "2026-10-09T17:22:35.791+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-09T17:10:22.829+08:00",
+      "fetchedAt": "2026-10-09T17:22:22.730+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -33,7 +33,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 92,
+          "usedPct": 94,
           "resetAt": "2026-10-09T18:44:08.000+08:00"
         },
         {
@@ -42,16 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-15T15:13:45.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-09T16:58:22.719+08:00",
-      "error": "Codex app-server 查询超时",
-      "stale": true,
-      "lastAttemptAt": "2026-10-09T17:10:22.831+08:00"
+      "fetchedAt": "2026-10-09T17:22:22.731+08:00",
+      "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-09T17:10:22.836+08:00",
+      "fetchedAt": "2026-10-09T17:22:22.736+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-09T17:10:22.836+08:00",
+      "fetchedAt": "2026-10-09T17:22:22.736+08:00",
       "error": "未启用",
       "disabled": true
     }
