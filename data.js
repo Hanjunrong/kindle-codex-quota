@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-11T23:51:25.326+08:00",
+  "updatedAt": "2026-10-12T00:02:25.727+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -10,20 +10,20 @@ window.DASH_DATA = {
     "windKph": 19,
     "windDir": "南风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-11T23:51:12.409+08:00",
-    "fetchedAt": "2026-10-11T23:51:25.326+08:00",
+    "observedAt": "2026-10-12T00:00:15.919+08:00",
+    "fetchedAt": "2026-10-12T00:02:25.727+08:00",
     "error": null
   },
   "quote": {
-    "text": "山重水复疑无路，柳暗花明又一村。",
-    "source": "陆游《游山西村》"
+    "text": "长风破浪会有时，直挂云帆济沧海。",
+    "source": "李白《行路难》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-11T23:51:24.008+08:00",
+      "fetchedAt": "2026-10-12T00:02:23.989+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-18T12:36:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-11T23:51:24.009+08:00",
+      "fetchedAt": "2026-10-12T00:02:23.990+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-11T23:51:24.014+08:00",
+      "fetchedAt": "2026-10-12T00:02:23.995+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-11T23:51:24.014+08:00",
+      "fetchedAt": "2026-10-12T00:02:23.995+08:00",
       "error": "未启用",
       "disabled": true
     }
