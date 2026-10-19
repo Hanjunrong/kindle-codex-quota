@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-10-19T23:52:45.422+08:00",
+  "updatedAt": "2026-10-20T00:03:44.276+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 12,
     "feelsLikeC": 12,
-    "humidity": 81,
-    "windKph": 1,
+    "humidity": 82,
+    "windKph": 3,
     "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-19T23:51:23.852+08:00",
-    "fetchedAt": "2026-10-19T23:52:45.422+08:00",
+    "observedAt": "2026-10-20T00:03:23.926+08:00",
+    "fetchedAt": "2026-10-20T00:03:44.276+08:00",
     "error": null
   },
   "quote": {
-    "text": "故不积跬步，无以至千里。",
-    "source": "荀子《劝学》"
+    "text": "胜人者有力，自胜者强。",
+    "source": "《道德经》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-19T23:52:42.921+08:00",
+      "fetchedAt": "2026-10-20T00:03:42.963+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -39,17 +39,17 @@
         {
           "name": "周",
           "usedPct": 13,
-          "resetAt": "2026-10-25T09:57:38.000+08:00"
+          "resetAt": "2026-10-25T09:57:37.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-19T23:52:42.922+08:00",
+      "fetchedAt": "2026-10-20T00:03:42.964+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-19T23:52:42.927+08:00",
+      "fetchedAt": "2026-10-20T00:03:42.969+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-19T23:52:42.927+08:00",
+      "fetchedAt": "2026-10-20T00:03:42.969+08:00",
       "error": "未启用",
       "disabled": true
     }
