@@ -1,17 +1,17 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-20T11:25:44.677+08:00",
+  "updatedAt": "2026-10-20T11:36:44.979+08:00",
   "weather": {
     "ok": true,
     "description": "阴",
     "iconKey": "cloudy",
     "tempC": 10,
     "feelsLikeC": 7,
-    "humidity": 77,
+    "humidity": 76,
     "windKph": 46,
     "windDir": "东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-20T11:24:25.446+08:00",
-    "fetchedAt": "2026-10-20T11:25:44.677+08:00",
+    "observedAt": "2026-10-20T11:36:25.555+08:00",
+    "fetchedAt": "2026-10-20T11:36:44.979+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-20T11:25:43.154+08:00",
+      "fetchedAt": "2026-10-20T11:36:43.233+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-25T09:57:38.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-20T11:25:43.155+08:00",
+      "fetchedAt": "2026-10-20T11:36:43.235+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-20T11:25:43.159+08:00",
+      "fetchedAt": "2026-10-20T11:36:43.239+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-20T11:25:43.159+08:00",
+      "fetchedAt": "2026-10-20T11:36:43.239+08:00",
       "error": "未启用",
       "disabled": true
     }
