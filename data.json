@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-10-20T23:53:46.014+08:00",
+  "updatedAt": "2026-10-21T00:04:45.241+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 8,
+    "tempC": 7,
     "feelsLikeC": 3,
-    "humidity": 33,
-    "windKph": 39,
+    "humidity": 34,
+    "windKph": 36,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-20T23:51:27.213+08:00",
-    "fetchedAt": "2026-10-20T23:53:46.014+08:00",
+    "observedAt": "2026-10-21T00:03:27.474+08:00",
+    "fetchedAt": "2026-10-21T00:04:45.241+08:00",
     "error": null
   },
   "quote": {
-    "text": "胜人者有力，自胜者强。",
-    "source": "《道德经》"
+    "text": "精诚所至，金石为开。",
+    "source": "《后汉书》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-20T23:53:43.491+08:00",
+      "fetchedAt": "2026-10-21T00:04:43.506+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@
           "resetAt": "2026-10-27T16:14:31.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-20T23:53:43.492+08:00",
+      "fetchedAt": "2026-10-21T00:04:43.507+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-20T23:53:43.497+08:00",
+      "fetchedAt": "2026-10-21T00:04:43.512+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-20T23:53:43.497+08:00",
+      "fetchedAt": "2026-10-21T00:04:43.512+08:00",
       "error": "未启用",
       "disabled": true
     }
