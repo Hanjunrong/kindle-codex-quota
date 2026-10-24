@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-24T23:19:37.168+08:00",
+  "updatedAt": "2026-10-24T23:30:37.361+08:00",
   "weather": {
     "ok": true,
     "description": "阴",
@@ -7,11 +7,11 @@ window.DASH_DATA = {
     "tempC": 13,
     "feelsLikeC": 13,
     "humidity": 84,
-    "windKph": 14,
-    "windDir": "北东北风",
+    "windKph": 13,
+    "windDir": "东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-24T23:18:14.364+08:00",
-    "fetchedAt": "2026-10-24T23:19:37.168+08:00",
+    "observedAt": "2026-10-24T23:30:11.409+08:00",
+    "fetchedAt": "2026-10-24T23:30:37.361+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-24T23:19:36.147+08:00",
+      "fetchedAt": "2026-10-24T23:30:36.171+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,16 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-10-31T08:15:50.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-24T23:18:14.759+08:00",
-      "error": "failed to fetch codex rate limits: GET https://chatgpt.com/backend-api/wham/usage failed: 504 Gateway Timeout; content-type=text/plain; charset=UTF-8; body=error code: 504\n",
-      "stale": true,
-      "lastAttemptAt": "2026-10-24T23:19:36.148+08:00"
+      "fetchedAt": "2026-10-24T23:30:36.172+08:00",
+      "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-24T23:19:36.152+08:00",
+      "fetchedAt": "2026-10-24T23:30:36.176+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-24T23:19:36.152+08:00",
+      "fetchedAt": "2026-10-24T23:30:36.176+08:00",
       "error": "未启用",
       "disabled": true
     }
