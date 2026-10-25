@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-25T23:53:38.299+08:00",
+  "updatedAt": "2026-10-26T00:04:38.916+08:00",
   "weather": {
     "ok": true,
     "description": "阴",
@@ -7,15 +7,15 @@ window.DASH_DATA = {
     "tempC": 11,
     "feelsLikeC": 10,
     "humidity": 95,
-    "windKph": 10,
-    "windDir": "东北风",
+    "windKph": 8,
+    "windDir": "东东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-25T23:51:14.606+08:00",
-    "fetchedAt": "2026-10-25T23:53:38.300+08:00",
+    "observedAt": "2026-10-26T00:03:16.037+08:00",
+    "fetchedAt": "2026-10-26T00:04:38.917+08:00",
     "error": null
   },
   "quote": {
-    "text": "人的潜能，是被压力逼出来的。",
+    "text": "每一次攀登，都在为俯瞰做准备。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-25T23:53:36.666+08:00",
+      "fetchedAt": "2026-10-26T00:04:36.652+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-01T14:10:13.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-25T23:53:36.667+08:00",
+      "fetchedAt": "2026-10-26T00:04:36.654+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-25T23:53:36.671+08:00",
+      "fetchedAt": "2026-10-26T00:04:36.658+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-25T23:53:36.672+08:00",
+      "fetchedAt": "2026-10-26T00:04:36.658+08:00",
       "error": "未启用",
       "disabled": true
     }
