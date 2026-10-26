@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-10-26T23:54:39.240+08:00",
+  "updatedAt": "2026-10-27T00:05:38.954+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 12,
+    "tempC": 11,
     "feelsLikeC": 7,
-    "humidity": 32,
-    "windKph": 46,
+    "humidity": 31,
+    "windKph": 47,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-26T23:54:19.580+08:00",
-    "fetchedAt": "2026-10-26T23:54:39.240+08:00",
+    "observedAt": "2026-10-27T00:03:18.005+08:00",
+    "fetchedAt": "2026-10-27T00:05:38.954+08:00",
     "error": null
   },
   "quote": {
-    "text": "每一次攀登，都在为俯瞰做准备。",
+    "text": "把无人走过的路，踩成后来人的近路。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-26T23:54:37.006+08:00",
+      "fetchedAt": "2026-10-27T00:05:36.984+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-10-27T04:54:39.000+08:00"
+          "resetAt": "2026-10-27T05:05:38.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-02T15:57:01.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-26T23:54:37.008+08:00",
+      "fetchedAt": "2026-10-27T00:05:36.985+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-26T23:54:37.012+08:00",
+      "fetchedAt": "2026-10-27T00:05:36.989+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-26T23:54:37.012+08:00",
+      "fetchedAt": "2026-10-27T00:05:36.989+08:00",
       "error": "未启用",
       "disabled": true
     }
