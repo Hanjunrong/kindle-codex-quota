@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:52:40.472+08:00",
+  "updatedAt": "2026-10-29T00:03:39.894+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -10,12 +10,12 @@
     "windKph": 22,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-10-28T23:51:25.689+08:00",
-    "fetchedAt": "2026-10-28T23:52:40.472+08:00",
+    "observedAt": "2026-10-29T00:03:25.341+08:00",
+    "fetchedAt": "2026-10-29T00:03:39.897+08:00",
     "error": null
   },
   "quote": {
-    "text": "慢即是快：把一件事做深，胜过做十件事。",
+    "text": "专注当下，答案往往藏在过程里。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-10-28T23:52:38.181+08:00",
+      "fetchedAt": "2026-10-29T00:03:38.222+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,22 +34,22 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-10-28T23:53:38.000+08:00"
+          "resetAt": "2026-10-29T05:03:39.000+08:00"
         },
         {
           "name": "周",
           "usedPct": 0,
-          "resetAt": "2026-11-04T18:53:38.000+08:00"
+          "resetAt": "2026-11-04T18:53:37.000+08:00"
         }
       ],
-      "fetchedAt": "2026-10-28T23:52:38.182+08:00",
+      "fetchedAt": "2026-10-29T00:03:38.223+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-10-28T23:52:38.187+08:00",
+      "fetchedAt": "2026-10-29T00:03:38.228+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-10-28T23:52:38.187+08:00",
+      "fetchedAt": "2026-10-29T00:03:38.228+08:00",
       "error": "未启用",
       "disabled": true
     }
