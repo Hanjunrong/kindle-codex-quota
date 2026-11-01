@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-01T23:57:41.601+08:00",
+  "updatedAt": "2026-11-02T00:08:41.970+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -8,14 +8,14 @@ window.DASH_DATA = {
     "feelsLikeC": 6,
     "humidity": 58,
     "windKph": 11,
-    "windDir": "东东北风",
+    "windDir": "东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-01T23:57:38.805+08:00",
-    "fetchedAt": "2026-11-01T23:57:41.601+08:00",
+    "observedAt": "2026-11-02T00:06:39.342+08:00",
+    "fetchedAt": "2026-11-02T00:08:41.971+08:00",
     "error": null
   },
   "quote": {
-    "text": "把今天做到最好，明天自会更好。",
+    "text": "困难是化了妆的机会。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-01T23:57:40.443+08:00",
+      "fetchedAt": "2026-11-02T00:08:40.302+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-04T18:53:37.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-01T23:57:40.444+08:00",
+      "fetchedAt": "2026-11-02T00:08:40.303+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-01T23:57:40.449+08:00",
+      "fetchedAt": "2026-11-02T00:08:40.309+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-01T23:57:40.449+08:00",
+      "fetchedAt": "2026-11-02T00:08:40.309+08:00",
       "error": "未启用",
       "disabled": true
     }
