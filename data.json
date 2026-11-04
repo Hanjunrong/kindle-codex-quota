@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-11-04T23:57:04.932+08:00",
+  "updatedAt": "2026-11-05T00:08:05.497+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 7,
     "feelsLikeC": 5,
-    "humidity": 89,
-    "windKph": 21,
+    "humidity": 90,
+    "windKph": 22,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-04T23:54:07.378+08:00",
-    "fetchedAt": "2026-11-04T23:57:04.932+08:00",
+    "observedAt": "2026-11-05T00:06:07.649+08:00",
+    "fetchedAt": "2026-11-05T00:08:05.497+08:00",
     "error": null
   },
   "quote": {
-    "text": "千里之行，始于足下。",
-    "source": "《道德经》"
+    "text": "锲而不舍，金石可镂。",
+    "source": "荀子《劝学》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-04T23:57:03.198+08:00",
+      "fetchedAt": "2026-11-05T00:08:03.212+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,22 +34,22 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-05T04:57:05.000+08:00"
+          "resetAt": "2026-11-05T05:08:04.000+08:00"
         },
         {
           "name": "周",
           "usedPct": 0,
-          "resetAt": "2026-11-11T23:57:05.000+08:00"
+          "resetAt": "2026-11-12T00:08:04.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-04T23:57:03.200+08:00",
+      "fetchedAt": "2026-11-05T00:08:03.213+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-04T23:57:03.204+08:00",
+      "fetchedAt": "2026-11-05T00:08:03.217+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-04T23:57:03.205+08:00",
+      "fetchedAt": "2026-11-05T00:08:03.217+08:00",
       "error": "未启用",
       "disabled": true
     }
