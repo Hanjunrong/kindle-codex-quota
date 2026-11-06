@@ -1,17 +1,17 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-06T16:27:12.249+08:00",
+  "updatedAt": "2026-11-06T16:38:07.221+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 12,
     "feelsLikeC": 8,
-    "humidity": 20,
+    "humidity": 22,
     "windKph": 19,
     "windDir": "南东南风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-06T16:21:13.384+08:00",
-    "fetchedAt": "2026-11-06T16:27:12.250+08:00",
+    "observedAt": "2026-11-06T16:36:14.169+08:00",
+    "fetchedAt": "2026-11-06T16:38:07.223+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-06T16:27:04.142+08:00",
+      "fetchedAt": "2026-11-06T16:38:04.299+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,16 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-06T16:24:27.792+08:00",
-      "error": "failed to fetch codex rate limits: error sending request for url (https://chatgpt.com/backend-api/wham/usage)",
-      "stale": true,
-      "lastAttemptAt": "2026-11-06T16:27:04.143+08:00"
+      "fetchedAt": "2026-11-06T16:38:04.300+08:00",
+      "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-06T16:27:04.148+08:00",
+      "fetchedAt": "2026-11-06T16:38:04.309+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-06T16:27:04.148+08:00",
+      "fetchedAt": "2026-11-06T16:38:04.309+08:00",
       "error": "未启用",
       "disabled": true
     }
