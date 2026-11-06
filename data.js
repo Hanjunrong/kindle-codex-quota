@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-06T23:58:06.121+08:00",
+  "updatedAt": "2026-11-07T00:09:06.317+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 6,
-    "feelsLikeC": 3,
-    "humidity": 54,
-    "windKph": 14,
+    "feelsLikeC": 2,
+    "humidity": 56,
+    "windKph": 15,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-06T23:57:06.882+08:00",
-    "fetchedAt": "2026-11-06T23:58:06.121+08:00",
+    "observedAt": "2026-11-07T00:06:07.084+08:00",
+    "fetchedAt": "2026-11-07T00:09:06.318+08:00",
     "error": null
   },
   "quote": {
-    "text": "路虽远，行则将至；事虽难，做则必成。",
-    "source": "《荀子》"
+    "text": "不积跬步，无以至千里。",
+    "source": "荀子《劝学》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-06T23:58:04.435+08:00",
+      "fetchedAt": "2026-11-07T00:09:04.348+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-07T04:58:05.000+08:00"
+          "resetAt": "2026-11-07T05:09:05.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-06T23:58:04.436+08:00",
+      "fetchedAt": "2026-11-07T00:09:04.349+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-06T23:58:04.441+08:00",
+      "fetchedAt": "2026-11-07T00:09:04.353+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-06T23:58:04.441+08:00",
+      "fetchedAt": "2026-11-07T00:09:04.353+08:00",
       "error": "未启用",
       "disabled": true
     }
