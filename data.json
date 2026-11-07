@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T23:59:06.756+08:00",
+  "updatedAt": "2026-11-08T00:10:06.588+08:00",
   "weather": {
     "ok": true,
     "description": "中雪",
@@ -7,23 +7,23 @@
     "tempC": 1,
     "feelsLikeC": -2,
     "humidity": 100,
-    "windKph": 42,
+    "windKph": 43,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-07T23:57:10.350+08:00",
-    "fetchedAt": "2026-11-07T23:59:06.756+08:00",
+    "observedAt": "2026-11-08T00:09:10.775+08:00",
+    "fetchedAt": "2026-11-08T00:10:06.589+08:00",
     "error": null
   },
   "quote": {
-    "text": "不积跬步，无以至千里。",
-    "source": "荀子《劝学》"
+    "text": "与其临渊羡鱼，不如退而结网。",
+    "source": "《淮南子》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-07T23:59:04.755+08:00",
+      "fetchedAt": "2026-11-08T00:10:04.811+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-07T23:59:04.756+08:00",
+      "fetchedAt": "2026-11-08T00:10:04.812+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-07T23:59:04.762+08:00",
+      "fetchedAt": "2026-11-08T00:10:04.816+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-07T23:59:04.762+08:00",
+      "fetchedAt": "2026-11-08T00:10:04.816+08:00",
       "error": "未启用",
       "disabled": true
     }
