@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-09T00:00:09.982+08:00",
+  "updatedAt": "2026-11-09T00:11:07.023+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 1,
     "feelsLikeC": -3,
-    "humidity": 67,
+    "humidity": 68,
     "windKph": 17,
     "windDir": "北西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-08T23:57:14.873+08:00",
-    "fetchedAt": "2026-11-09T00:00:09.983+08:00",
+    "observedAt": "2026-11-09T00:09:14.217+08:00",
+    "fetchedAt": "2026-11-09T00:11:07.023+08:00",
     "error": null
   },
   "quote": {
-    "text": "与其临渊羡鱼，不如退而结网。",
-    "source": "《淮南子》"
+    "text": "宝剑锋从磨砺出，梅花香自苦寒来。",
+    "source": "《警世贤文》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-09T00:00:05.443+08:00",
+      "fetchedAt": "2026-11-09T00:11:05.132+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-09T00:00:05.444+08:00",
+      "fetchedAt": "2026-11-09T00:11:05.134+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-09T00:00:05.450+08:00",
+      "fetchedAt": "2026-11-09T00:11:05.138+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-09T00:00:05.450+08:00",
+      "fetchedAt": "2026-11-09T00:11:05.138+08:00",
       "error": "未启用",
       "disabled": true
     }
