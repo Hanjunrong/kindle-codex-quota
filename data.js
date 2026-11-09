@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-09T23:50:07.840+08:00",
+  "updatedAt": "2026-11-10T00:01:07.355+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 3,
     "feelsLikeC": 0,
-    "humidity": 75,
-    "windKph": 4,
+    "humidity": 76,
+    "windKph": 5,
     "windDir": "北西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-09T23:48:17.779+08:00",
-    "fetchedAt": "2026-11-09T23:50:07.840+08:00",
+    "observedAt": "2026-11-10T00:00:17.631+08:00",
+    "fetchedAt": "2026-11-10T00:01:07.360+08:00",
     "error": null
   },
   "quote": {
-    "text": "宝剑锋从磨砺出，梅花香自苦寒来。",
-    "source": "《警世贤文》"
+    "text": "山重水复疑无路，柳暗花明又一村。",
+    "source": "陆游《游山西村》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-09T23:50:05.796+08:00",
+      "fetchedAt": "2026-11-10T00:01:05.700+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-09T23:50:05.797+08:00",
+      "fetchedAt": "2026-11-10T00:01:05.702+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-09T23:50:05.801+08:00",
+      "fetchedAt": "2026-11-10T00:01:05.706+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-09T23:50:05.801+08:00",
+      "fetchedAt": "2026-11-10T00:01:05.706+08:00",
       "error": "未启用",
       "disabled": true
     }
