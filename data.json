@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-11-10T23:51:07.827+08:00",
+  "updatedAt": "2026-11-11T00:02:08.184+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 4,
-    "feelsLikeC": 2,
-    "humidity": 86,
+    "feelsLikeC": 1,
+    "humidity": 87,
     "windKph": 5,
     "windDir": "西西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-10T23:48:21.013+08:00",
-    "fetchedAt": "2026-11-10T23:51:07.827+08:00",
+    "observedAt": "2026-11-11T00:00:21.203+08:00",
+    "fetchedAt": "2026-11-11T00:02:08.184+08:00",
     "error": null
   },
   "quote": {
-    "text": "山重水复疑无路，柳暗花明又一村。",
-    "source": "陆游《游山西村》"
+    "text": "长风破浪会有时，直挂云帆济沧海。",
+    "source": "李白《行路难》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-10T23:51:06.170+08:00",
+      "fetchedAt": "2026-11-11T00:02:06.103+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-11T04:51:07.000+08:00"
+          "resetAt": "2026-11-11T05:02:07.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-12T08:03:21.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-10T23:51:06.171+08:00",
+      "fetchedAt": "2026-11-11T00:02:06.104+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-10T23:51:06.176+08:00",
+      "fetchedAt": "2026-11-11T00:02:06.108+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-10T23:51:06.176+08:00",
+      "fetchedAt": "2026-11-11T00:02:06.109+08:00",
       "error": "未启用",
       "disabled": true
     }
