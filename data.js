@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-13T09:24:20.584+08:00",
+  "updatedAt": "2026-11-13T09:35:20.545+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 9,
-    "feelsLikeC": 7,
-    "humidity": 84,
-    "windKph": 10,
-    "windDir": "南风",
+    "tempC": 6,
+    "feelsLikeC": 4,
+    "humidity": 81,
+    "windKph": 8,
+    "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-12T18:44:56.476+08:00",
-    "fetchedAt": "2026-11-13T09:24:20.584+08:00",
+    "observedAt": "2026-11-13T09:34:21.157+08:00",
+    "fetchedAt": "2026-11-13T09:35:20.546+08:00",
     "error": null
   },
   "quote": {
-    "text": "沉舟侧畔千帆过，病树前头万木春。",
-    "source": "刘禹锡"
+    "text": "玉经琢磨多成器，剑拔沉埋便倚天。",
+    "source": "王定保"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-13T09:24:19.418+08:00",
+      "fetchedAt": "2026-11-13T09:35:19.294+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -33,7 +33,7 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 3,
+          "usedPct": 4,
           "resetAt": "2026-11-13T12:56:15.000+08:00"
         },
         {
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-19T13:14:35.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-13T09:24:19.419+08:00",
+      "fetchedAt": "2026-11-13T09:35:19.295+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-13T09:24:19.424+08:00",
+      "fetchedAt": "2026-11-13T09:35:19.300+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-13T09:24:19.424+08:00",
+      "fetchedAt": "2026-11-13T09:35:19.300+08:00",
       "error": "未启用",
       "disabled": true
     }
