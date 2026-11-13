@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-13T23:53:20.735+08:00",
+  "updatedAt": "2026-11-14T00:04:20.624+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 6,
+    "tempC": 5,
     "feelsLikeC": 3,
-    "humidity": 87,
+    "humidity": 88,
     "windKph": 22,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-13T23:51:10.566+08:00",
-    "fetchedAt": "2026-11-13T23:53:20.736+08:00",
+    "observedAt": "2026-11-14T00:03:10.752+08:00",
+    "fetchedAt": "2026-11-14T00:04:20.625+08:00",
     "error": null
   },
   "quote": {
-    "text": "玉经琢磨多成器，剑拔沉埋便倚天。",
-    "source": "王定保"
+    "text": "千淘万漉虽辛苦，吹尽狂沙始到金。",
+    "source": "刘禹锡"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-13T23:53:19.485+08:00",
+      "fetchedAt": "2026-11-14T00:04:19.506+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-14T04:53:20.000+08:00"
+          "resetAt": "2026-11-14T05:04:20.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-19T13:14:35.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-13T23:53:19.487+08:00",
+      "fetchedAt": "2026-11-14T00:04:19.507+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-13T23:53:19.491+08:00",
+      "fetchedAt": "2026-11-14T00:04:19.511+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-13T23:53:19.491+08:00",
+      "fetchedAt": "2026-11-14T00:04:19.511+08:00",
       "error": "未启用",
       "disabled": true
     }
