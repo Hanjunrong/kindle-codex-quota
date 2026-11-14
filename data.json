@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-11-14T23:53:46.696+08:00",
+  "updatedAt": "2026-11-15T00:04:46.465+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 7,
+    "tempC": 6,
     "feelsLikeC": 5,
     "humidity": 91,
-    "windKph": 12,
+    "windKph": 14,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-14T23:51:07.261+08:00",
-    "fetchedAt": "2026-11-14T23:53:46.696+08:00",
+    "observedAt": "2026-11-15T00:03:07.466+08:00",
+    "fetchedAt": "2026-11-15T00:04:46.466+08:00",
     "error": null
   },
   "quote": {
-    "text": "千淘万漉虽辛苦，吹尽狂沙始到金。",
-    "source": "刘禹锡"
+    "text": "纸上得来终觉浅，绝知此事要躬行。",
+    "source": "陆游"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-14T23:53:45.339+08:00",
+      "fetchedAt": "2026-11-15T00:04:45.249+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-15T04:53:46.000+08:00"
+          "resetAt": "2026-11-15T05:04:46.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-19T13:14:35.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-14T23:53:45.340+08:00",
+      "fetchedAt": "2026-11-15T00:04:45.251+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-14T23:53:45.344+08:00",
+      "fetchedAt": "2026-11-15T00:04:45.255+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-14T23:53:45.344+08:00",
+      "fetchedAt": "2026-11-15T00:04:45.255+08:00",
       "error": "未启用",
       "disabled": true
     }
