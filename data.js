@@ -1,29 +1,29 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-16T23:55:55.754+08:00",
+  "updatedAt": "2026-11-17T00:06:56.060+08:00",
   "weather": {
     "ok": true,
     "description": "阴",
     "iconKey": "cloudy",
     "tempC": 6,
-    "feelsLikeC": 4,
-    "humidity": 67,
-    "windKph": 2,
+    "feelsLikeC": 3,
+    "humidity": 68,
+    "windKph": 1,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-16T23:54:08.504+08:00",
-    "fetchedAt": "2026-11-16T23:55:55.755+08:00",
+    "observedAt": "2026-11-17T00:06:07.662+08:00",
+    "fetchedAt": "2026-11-17T00:06:56.061+08:00",
     "error": null
   },
   "quote": {
-    "text": "咬定青山不放松，立根原在破岩中。",
-    "source": "郑板桥"
+    "text": "博观而约取，厚积而薄发。",
+    "source": "苏轼"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-16T23:55:54.570+08:00",
+      "fetchedAt": "2026-11-17T00:06:54.642+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-19T13:14:35.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-16T23:55:54.572+08:00",
+      "fetchedAt": "2026-11-17T00:06:54.643+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-16T23:55:54.576+08:00",
+      "fetchedAt": "2026-11-17T00:06:54.647+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-16T23:55:54.576+08:00",
+      "fetchedAt": "2026-11-17T00:06:54.647+08:00",
       "error": "未启用",
       "disabled": true
     }
