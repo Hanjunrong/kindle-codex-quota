@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-17T23:45:59.034+08:00",
+  "updatedAt": "2026-11-18T00:07:56.137+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -7,23 +7,23 @@ window.DASH_DATA = {
     "tempC": 4,
     "feelsLikeC": -1,
     "humidity": 38,
-    "windKph": 57,
+    "windKph": 54,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-17T23:45:11.079+08:00",
-    "fetchedAt": "2026-11-17T23:45:59.034+08:00",
+    "observedAt": "2026-11-18T00:06:11.006+08:00",
+    "fetchedAt": "2026-11-18T00:07:56.137+08:00",
     "error": null
   },
   "quote": {
-    "text": "博观而约取，厚积而薄发。",
-    "source": "苏轼"
+    "text": "故不积跬步，无以至千里。",
+    "source": "荀子《劝学》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-17T23:45:55.009+08:00",
+      "fetchedAt": "2026-11-18T00:07:55.020+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-19T13:14:35.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-17T23:45:55.010+08:00",
+      "fetchedAt": "2026-11-18T00:07:55.021+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-17T23:45:55.014+08:00",
+      "fetchedAt": "2026-11-18T00:07:55.025+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-17T23:45:55.014+08:00",
+      "fetchedAt": "2026-11-18T00:07:55.025+08:00",
       "error": "未启用",
       "disabled": true
     }
