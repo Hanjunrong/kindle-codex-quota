@@ -1,5 +1,5 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-20T23:52:38.787+08:00",
+  "updatedAt": "2026-11-21T00:03:38.286+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -7,23 +7,23 @@ window.DASH_DATA = {
     "tempC": 1,
     "feelsLikeC": -4,
     "humidity": 40,
-    "windKph": 30,
+    "windKph": 28,
     "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-20T23:51:07.744+08:00",
-    "fetchedAt": "2026-11-20T23:52:38.787+08:00",
+    "observedAt": "2026-11-21T00:03:06.853+08:00",
+    "fetchedAt": "2026-11-21T00:03:38.286+08:00",
     "error": null
   },
   "quote": {
-    "text": "精诚所至，金石为开。",
-    "source": "《后汉书》"
+    "text": "天下大事，必作于细。",
+    "source": "《道德经》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-20T23:52:37.158+08:00",
+      "fetchedAt": "2026-11-21T00:03:37.147+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@ window.DASH_DATA = {
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-21T04:52:38.000+08:00"
+          "resetAt": "2026-11-21T05:03:38.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-26T15:37:07.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-20T23:52:37.159+08:00",
+      "fetchedAt": "2026-11-21T00:03:37.148+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-20T23:52:37.163+08:00",
+      "fetchedAt": "2026-11-21T00:03:37.152+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-20T23:52:37.163+08:00",
+      "fetchedAt": "2026-11-21T00:03:37.152+08:00",
       "error": "未启用",
       "disabled": true
     }
