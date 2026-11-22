@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:53:58.941+08:00",
+  "updatedAt": "2026-11-23T00:04:59.083+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -7,23 +7,23 @@
     "tempC": 0,
     "feelsLikeC": -4,
     "humidity": 58,
-    "windKph": 18,
-    "windDir": "北风",
+    "windKph": 19,
+    "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-22T23:51:07.643+08:00",
-    "fetchedAt": "2026-11-22T23:53:58.941+08:00",
+    "observedAt": "2026-11-23T00:03:07.778+08:00",
+    "fetchedAt": "2026-11-23T00:04:59.084+08:00",
     "error": null
   },
   "quote": {
-    "text": "靡不有初，鲜克有终。",
-    "source": "《诗经》"
+    "text": "志不求易者成，事不避难者进。",
+    "source": "《后汉书》"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-22T23:53:57.841+08:00",
+      "fetchedAt": "2026-11-23T00:04:57.949+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-23T04:53:58.000+08:00"
+          "resetAt": "2026-11-23T05:04:58.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-26T15:37:07.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-22T23:53:57.843+08:00",
+      "fetchedAt": "2026-11-23T00:04:57.950+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-22T23:53:57.847+08:00",
+      "fetchedAt": "2026-11-23T00:04:57.955+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-22T23:53:57.847+08:00",
+      "fetchedAt": "2026-11-23T00:04:57.955+08:00",
       "error": "未启用",
       "disabled": true
     }
