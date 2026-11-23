@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-11-23T23:54:59.574+08:00",
+  "updatedAt": "2026-11-24T00:05:59.674+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": -1,
     "feelsLikeC": -5,
-    "humidity": 31,
-    "windKph": 15,
+    "humidity": 32,
+    "windKph": 13,
     "windDir": "北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-23T23:54:11.220+08:00",
-    "fetchedAt": "2026-11-23T23:54:59.575+08:00",
+    "observedAt": "2026-11-24T00:03:11.518+08:00",
+    "fetchedAt": "2026-11-24T00:05:59.674+08:00",
     "error": null
   },
   "quote": {
-    "text": "志不求易者成，事不避难者进。",
-    "source": "《后汉书》"
+    "text": "人的潜能，是被压力逼出来的。",
+    "source": "佚名"
   },
   "sources": {
     "claude": {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-23T23:54:58.330+08:00",
+      "fetchedAt": "2026-11-24T00:05:58.415+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 0,
-          "resetAt": "2026-11-24T04:54:59.000+08:00"
+          "resetAt": "2026-11-24T05:05:59.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-26T15:37:07.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-23T23:54:58.331+08:00",
+      "fetchedAt": "2026-11-24T00:05:58.416+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-23T23:54:58.335+08:00",
+      "fetchedAt": "2026-11-24T00:05:58.420+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-23T23:54:58.335+08:00",
+      "fetchedAt": "2026-11-24T00:05:58.420+08:00",
       "error": "未启用",
       "disabled": true
     }
