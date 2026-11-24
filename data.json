@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:11:59.607+08:00",
+  "updatedAt": "2026-11-24T12:22:59.688+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
@@ -7,11 +7,11 @@
     "tempC": 4,
     "feelsLikeC": 0,
     "humidity": 20,
-    "windKph": 3,
-    "windDir": "东东南风",
+    "windKph": 6,
+    "windDir": "南风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-24T12:09:13.104+08:00",
-    "fetchedAt": "2026-11-24T12:11:59.607+08:00",
+    "observedAt": "2026-11-24T12:21:13.231+08:00",
+    "fetchedAt": "2026-11-24T12:22:59.688+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-24T12:11:58.547+08:00",
+      "fetchedAt": "2026-11-24T12:22:58.531+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -34,7 +34,7 @@
         {
           "name": "5小时",
           "usedPct": 8,
-          "resetAt": "2026-11-24T12:57:24.000+08:00"
+          "resetAt": "2026-11-24T12:57:23.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@
           "resetAt": "2026-11-26T15:37:07.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-24T12:11:58.548+08:00",
+      "fetchedAt": "2026-11-24T12:22:58.533+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-24T12:11:58.554+08:00",
+      "fetchedAt": "2026-11-24T12:22:58.538+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-24T12:11:58.554+08:00",
+      "fetchedAt": "2026-11-24T12:22:58.538+08:00",
       "error": "未启用",
       "disabled": true
     }
