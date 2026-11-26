@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:17:59.364+08:00",
+  "updatedAt": "2026-11-26T18:28:59.258+08:00",
   "weather": {
     "ok": true,
     "description": "多云",
@@ -10,8 +10,8 @@
     "windKph": 33,
     "windDir": "西南风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-26T18:15:08.572+08:00",
-    "fetchedAt": "2026-11-26T18:17:59.364+08:00",
+    "observedAt": "2026-11-26T18:27:08.411+08:00",
+    "fetchedAt": "2026-11-26T18:28:59.258+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-26T18:17:59.250+08:00",
+      "fetchedAt": "2026-11-26T18:28:59.214+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -45,13 +45,13 @@
       "fetchedAt": "2026-11-26T16:54:09.026+08:00",
       "error": "codex account authentication required to read rate limits",
       "stale": true,
-      "lastAttemptAt": "2026-11-26T18:17:59.251+08:00"
+      "lastAttemptAt": "2026-11-26T18:28:59.215+08:00"
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-26T18:17:59.255+08:00",
+      "fetchedAt": "2026-11-26T18:28:59.220+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +61,7 @@
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-26T18:17:59.255+08:00",
+      "fetchedAt": "2026-11-26T18:28:59.220+08:00",
       "error": "未启用",
       "disabled": true
     }
