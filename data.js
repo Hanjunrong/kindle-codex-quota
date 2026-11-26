@@ -1,17 +1,17 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-26T22:19:59.343+08:00",
+  "updatedAt": "2026-11-26T22:30:59.463+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
     "tempC": 6,
     "feelsLikeC": 3,
-    "humidity": 49,
-    "windKph": 9,
+    "humidity": 50,
+    "windKph": 14,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-26T22:18:09.063+08:00",
-    "fetchedAt": "2026-11-26T22:19:59.343+08:00",
+    "observedAt": "2026-11-26T22:30:09.124+08:00",
+    "fetchedAt": "2026-11-26T22:30:59.464+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-26T22:19:59.298+08:00",
+      "fetchedAt": "2026-11-26T22:30:59.421+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -45,13 +45,13 @@ window.DASH_DATA = {
       "fetchedAt": "2026-11-26T16:54:09.026+08:00",
       "error": "codex account authentication required to read rate limits",
       "stale": true,
-      "lastAttemptAt": "2026-11-26T22:19:59.299+08:00"
+      "lastAttemptAt": "2026-11-26T22:30:59.422+08:00"
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-26T22:19:59.303+08:00",
+      "fetchedAt": "2026-11-26T22:30:59.426+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +61,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-26T22:19:59.303+08:00",
+      "fetchedAt": "2026-11-26T22:30:59.426+08:00",
       "error": "未启用",
       "disabled": true
     }
