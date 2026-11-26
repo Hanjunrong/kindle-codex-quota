@@ -1,17 +1,17 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-26T07:51:00.163+08:00",
+  "updatedAt": "2026-11-26T08:02:00.379+08:00",
   "weather": {
     "ok": true,
-    "description": "晴",
-    "iconKey": "clear",
-    "tempC": 0,
-    "feelsLikeC": -4,
-    "humidity": 53,
-    "windKph": 23,
-    "windDir": "北风",
+    "description": "多云",
+    "iconKey": "cloudy",
+    "tempC": 2,
+    "feelsLikeC": -2,
+    "humidity": 46,
+    "windKph": 21,
+    "windDir": "北东北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-26T02:57:10.036+08:00",
-    "fetchedAt": "2026-11-26T07:51:00.163+08:00",
+    "observedAt": "2026-11-26T08:00:10.572+08:00",
+    "fetchedAt": "2026-11-26T08:02:00.380+08:00",
     "error": null
   },
   "quote": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-26T07:50:59.079+08:00",
+      "fetchedAt": "2026-11-26T08:01:58.977+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -33,8 +33,8 @@ window.DASH_DATA = {
       "windows": [
         {
           "name": "5小时",
-          "usedPct": 0,
-          "resetAt": "2026-11-26T12:51:00.000+08:00"
+          "usedPct": 3,
+          "resetAt": "2026-11-26T12:59:56.000+08:00"
         },
         {
           "name": "周",
@@ -42,14 +42,14 @@ window.DASH_DATA = {
           "resetAt": "2026-11-26T15:37:07.000+08:00"
         }
       ],
-      "fetchedAt": "2026-11-26T07:50:59.080+08:00",
+      "fetchedAt": "2026-11-26T08:01:58.978+08:00",
       "error": null
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-26T07:50:59.084+08:00",
+      "fetchedAt": "2026-11-26T08:01:58.982+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -59,7 +59,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-26T07:50:59.084+08:00",
+      "fetchedAt": "2026-11-26T08:01:58.982+08:00",
       "error": "未启用",
       "disabled": true
     }
