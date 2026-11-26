@@ -1,21 +1,21 @@
 window.DASH_DATA = {
-  "updatedAt": "2026-11-26T23:58:59.404+08:00",
+  "updatedAt": "2026-11-27T00:09:59.410+08:00",
   "weather": {
     "ok": true,
     "description": "晴",
     "iconKey": "clear",
-    "tempC": 8,
+    "tempC": 9,
     "feelsLikeC": 4,
-    "humidity": 46,
-    "windKph": 56,
+    "humidity": 45,
+    "windKph": 62,
     "windDir": "西北风",
     "place": "北京朝阳",
-    "observedAt": "2026-11-26T23:57:09.253+08:00",
-    "fetchedAt": "2026-11-26T23:58:59.404+08:00",
+    "observedAt": "2026-11-27T00:09:09.526+08:00",
+    "fetchedAt": "2026-11-27T00:09:59.410+08:00",
     "error": null
   },
   "quote": {
-    "text": "把无人走过的路，踩成后来人的近路。",
+    "text": "慢即是快：把一件事做深，胜过做十件事。",
     "source": "佚名"
   },
   "sources": {
@@ -23,7 +23,7 @@ window.DASH_DATA = {
       "ok": false,
       "label": "Claude",
       "windows": [],
-      "fetchedAt": "2026-11-26T23:58:59.293+08:00",
+      "fetchedAt": "2026-11-27T00:09:59.367+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -45,13 +45,13 @@ window.DASH_DATA = {
       "fetchedAt": "2026-11-26T16:54:09.026+08:00",
       "error": "codex account authentication required to read rate limits",
       "stale": true,
-      "lastAttemptAt": "2026-11-26T23:58:59.294+08:00"
+      "lastAttemptAt": "2026-11-27T00:09:59.368+08:00"
     },
     "kimi": {
       "ok": false,
       "label": "Kimi",
       "windows": [],
-      "fetchedAt": "2026-11-26T23:58:59.299+08:00",
+      "fetchedAt": "2026-11-27T00:09:59.372+08:00",
       "error": "未启用",
       "disabled": true
     },
@@ -61,7 +61,7 @@ window.DASH_DATA = {
       "balance": null,
       "currency": "CNY",
       "detail": null,
-      "fetchedAt": "2026-11-26T23:58:59.299+08:00",
+      "fetchedAt": "2026-11-27T00:09:59.372+08:00",
       "error": "未启用",
       "disabled": true
     }
